@@ -1,5 +1,6 @@
-set URL="https://www.eventbrite.com/ ,https://www.musimundo.com/";
+set URL="http://localhost:3000/";
+set EMAILS="gonza.a.fuentes@gmail.com;rlema.1989@gmail.com"
 git clone https://github.com/AccesibilidadWCARG/WCARG.git
 cd WCARG
 call npm install
-node index.js %URL%
+node wcarg %URL% %EMAILS%
